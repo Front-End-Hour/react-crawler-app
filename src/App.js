@@ -15,6 +15,10 @@ import {
   Container
 } from 'react-bootstrap';
 
+import HomePage from './components/home-page/home-page';
+import ImageCrawler from './components/image-crawler/image-crawler';
+import LinkCrawler from './components/link-crawler/link-crawler';
+
 function App() {
   return (
     <div className="crawler-app">
@@ -40,20 +44,20 @@ function App() {
             <div>
               <Switch>
                 <Route path="/links">
-                  <p>About us content</p>
+                  <LinkCrawler></LinkCrawler>
                 </Route>
                 <Route path="/images">
-                  <p>User Content</p>
+                  <ImageCrawler></ImageCrawler>
                 </Route>
                 <Route path="/">
-                  <p>Home Content</p>
+                  <HomePage></HomePage>
                 </Route>
               </Switch>
             </div>
           </div>
           <footer className="crawler-footer">
-            This is Footer section
-        </footer>
+            copyright @2021 McKumar
+          </footer>
         </Router>
       </Container>
     </div>
