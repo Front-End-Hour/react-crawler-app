@@ -1,0 +1,29 @@
+.crawler-app {
+  .navbar-expand {
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .nav-links-holder {
+    display: flex;
+  }
+
+  .nav-form-control {
+    display: flex;
+  }
+
+  .crawler-footer {
+    background-color: #212529 !important;
+    padding: 40px 10px;
+  }
+
+  .navbar-dark .navbar-brand {
+    padding: 12px 0 0 0;
+  }
+
+  .search-box-form {
+    input {
+      margin: 0 10px 0 0;
+    }
+  }
+}
